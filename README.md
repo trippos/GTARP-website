@@ -28,10 +28,6 @@ python -m http.server 8080
 
 или `npx serve .`, потом `http://localhost:8080`.
 
-## GitHub Pages
-
-Залил на GitHub -> Settings -> Pages -> branch `main`, root. Будет `username.github.io/название-репа`.
-
 ## На всякий случай
 
 GTARP не имеет отношения к Rockstar. GTA - их торговая марка.
