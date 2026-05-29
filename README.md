@@ -28,10 +28,6 @@ python -m http.server 8080
 
 or `npx serve .`, then `http://localhost:8080`.
 
-## GitHub Pages
-
-Uploaded to GitHub -> Settings -> Pages -> branch `main`, root. It will be `username.github.io/rep-name`.
-
 ## Just in case
 
 GTARP is not affiliated with Rockstar. GTA is their trademark.
@@ -67,9 +63,6 @@ python -m http.server 8080
 
 или `npx serve .`, потом `http://localhost:8080`.
 
-## GitHub Pages
-
-Залил на GitHub -> Settings -> Pages -> branch `main`, root. Будет `username.github.io/название-репа`.
 
 ## На всякий случай
 
