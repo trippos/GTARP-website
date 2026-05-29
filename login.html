@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Вход - GTARP</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+<header class="auth-header">
+  <a href="index.html" class="auth-logo">GT<span>ARP</span></a>
+  <div class="auth-header-links">
+    <a href="reg.html" class="auth-header-btn">Регистрация</a>
+  </div>
+</header>
+
+<main class="auth-main">
+  <div class="auth-page-inner">
+    <div class="auth-card">
+      <h1 class="auth-card-title">Вход</h1>
+      <p class="auth-card-sub">Нет аккаунта? <a href="reg.html">Зарегистрироваться</a></p>
+      <div class="auth-error" id="authError"></div>
+      <form onsubmit="handleLogin(event)">
+        <div class="auth-form-group">
+          <label class="auth-label" for="loginUser">Логин</label>
+          <input type="text" class="auth-input-field" id="loginUser" placeholder="Введите логин" required autocomplete="username">
+        </div>
+        <div class="auth-form-group">
+          <label class="auth-label" for="loginPass">Пароль</label>
+          <input type="password" class="auth-input-field" id="loginPass" placeholder="Введите пароль" required autocomplete="current-password">
+        </div>
+        <div class="auth-row-links">
+          <label class="auth-remember-me">
+            <input type="checkbox" id="loginRemember">
+            <span>Запомнить меня</span>
+          </label>
+          <a class="auth-nav-link" href="#">Забыли пароль?</a>
+        </div>
+        <button type="submit" class="auth-action-btn">Войти</button>
+      </form>
+      <div class="auth-divider">или</div>
+      <a href="reg.html" class="auth-btn-outline">Создать аккаунт</a>
+    </div>
+  </div>
+</main>
+
+<footer class="auth-footer">© 2024-2026 GTARP</footer>
+<script src="auth.js"></script>
+</body>
+</html>
